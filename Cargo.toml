@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+itertools = "0.12.1"
+
+[[example]]
+name = "text-count_max_of_each_letter" # text-count_max_of_each_letter.rs
